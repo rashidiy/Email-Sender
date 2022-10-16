@@ -17,7 +17,7 @@
     <div class="row">
         <label>Kimningdir pochtasiga oddiygina habar yuborish</label>
         <hr>
-        <code>email.send_text('misol@uchun.uz', <mark>'sizning xabaringiz'</mark>)</code>
+        ```email.send_text('misol@uchun.uz', <mark>'sizning xabaringiz'</mark>)```
     </div>
     <br>
     <div class="row">
