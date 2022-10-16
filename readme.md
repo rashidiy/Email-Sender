@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
 </head>
-<body>
+<body style="background: #000;">
     <h2>Email Sender, 👋</h2>
     <p>
         Bu "repo"da python orqali email pochtaga xabar yuborishingiz mumkin
