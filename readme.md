@@ -5,9 +5,9 @@
 </head>
 <body style="background: #000;">
     <h1>Email Sender, 👋</h1>
-    <p>
+    <h4>
         Bu "repo"da python orqali email pochtaga xabar yuborishingiz mumkin
-    </p>
+    </h4>
     <div class="row">
         <hr>
         <h5>Dastlab "class"imizdan obyekt yaratib olamiz</h5>
