@@ -4,37 +4,37 @@
     <meta charset="UTF-8">
 </head>
 <body style="background: #000;">
-    <h2>Email Sender, 👋</h2>
+    <h1>Email Sender, 👋</h1>
     <p>
         Bu "repo"da python orqali email pochtaga xabar yuborishingiz mumkin
     </p>
     <div class="row">
         <hr>
-        <label>Dastlab "class"imizdan obyekt yaratib olamiz</label>
+        <h4>Dastlab "class"imizdan obyekt yaratib olamiz</h4>
         <br>
         <code>email = Email(MY_EMAIL, APP_PASSWORD)</code>
     </div>
     <div class="row">
         <hr>
-        <label>Kimningdir pochtasiga oddiygina habar yuborish</label>
+        <h4>Kimningdir pochtasiga oddiygina habar yuborish</h4>
         <br>
         <code>email.send_text('misol@uchun.uz', <mark style="color: yellow;">'sizning xabaringiz'</mark>)</code>
     </div>
     <div class="row">
         <hr>
-        <label>Kimningdir pochtasiga file ko'rishidagi habar yuborish uchun</label>
+        <h4>Kimningdir pochtasiga file ko'rishidagi habar yuborish uchun</h4>
         <br>
         <code>email.send_file('misol@uchun.uz', <mark>"faylning_joylashuvi"</mark>)</code>
     </div>
     <div class="row">
         <hr>
-        <label>Habarni mavzu bilan yuborish</label>
+        <h4>Habarni mavzu bilan yuborish</h4>
         <br>
         <code>email.send_text('misol@uchun.com', 'text', <mark>subject="Habar Matni")</mark></code>
     </div>
     <div class="row">
         <hr>
-        <label>Gipermatinli(HTML) habar yuborish</label>
+        <h4>Gipermatinli(HTML) habar yuborish</h4>
         <br>
         <code>email.send_text('misol@uchun.com', <mark>'&lth1&gtSalom&lt/h1&gt&ltimg src="https://pictures.com/example.jpg"&gt'</mark>, subject="TEXT - ko'rinishidagi habar", <mark>type_='html'</mark></code>)
     </div>
