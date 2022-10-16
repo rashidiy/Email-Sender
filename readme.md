@@ -2,31 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>name</title>
-    <style>
-        body {
-            font-family: monospace;
-            font-size: 14px;
-            line-height: 1.5;
-        }
-        .row {
-            border: 1px solid black;
-            height: 5.5em;
-            padding: 5px;
-            border-radius: 5px;
-        }
-        p, label, code {
-            margin-left: 1%;
-        }
-        hr {
-            margin-bottom: 1em;
-        }
-        code {
-            background-color: lightblue;
-            padding: .6em;
-            border-radius: 5px;
-        }
-    </style>
 </head>
 <body>
     <h2>Email Sender, 👋</h2>
